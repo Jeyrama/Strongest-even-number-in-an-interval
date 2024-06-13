@@ -45,3 +45,5 @@ function strongestEven(n, m){
   }
   return current
 }
+
+// or
