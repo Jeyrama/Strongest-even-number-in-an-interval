@@ -47,3 +47,17 @@ function strongestEven(n, m){
 }
 
 // or
+
+function strongestEven(n, m){
+  let maxStrongness = 0
+  let strongerNumber
+  let i = n
+  let f = m
+  while(f>i){
+    i = i%2===0 ? i/2 : (i+1)/2
+    f = f%2===0 ? f/2 : (f-1)/2
+    maxStrongness++
+  }
+  strongerNumber = i*2**maxStrongness
+  return strongerNumber;
+}
