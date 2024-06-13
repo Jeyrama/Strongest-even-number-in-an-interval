@@ -28,9 +28,12 @@ a naive solution will probably time out.
 
 Constraints:
   1 <= n < m <= INT_MAX
-  
+
 Examples:
   [1, 2]    -->   2  # 1 has strongness 0, 2 has strongness 1
   [5, 10]   -->   8  # 5, 7, 9 have strongness 0; 6, 10 have strongness 1; 8 has strongness 3
   [48, 56]  -->  48
 */
+
+
+// Solution
